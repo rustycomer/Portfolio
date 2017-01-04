@@ -1,0 +1,121 @@
+/*  Page */
+body {
+  font-family:  'Roboto', san-serif;
+}
+.title {
+  display: block;  
+  border-bottom: solid 1px #333;
+}
+
+/* Header */
+#navbar {
+  background-color: #263238;
+}
+#name-logo {
+  font-size: 36px;
+}
+#navbar-li {
+  font-size:24px;
+}
+/* Intro Section*/
+#intro {  
+  background: #fff;
+ url() no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.2); 
+  
+}
+#intro-content {  
+  height: 100vh;
+  margin-top: 25vh;
+}
+.intro-symbol {
+ 
+  font-size: 100px;
+  color: #333;
+}
+
+.hr {
+    color: #333;
+}
+#tagline {
+  font-family: 'Lato', san-serif;
+  font-size: 3em;
+  color: #333;
+}
+.badges {   
+  display: inline;  
+}
+.badges > .btn {
+  font-family: 'roboto', sans-serif;
+  margin: 1em;
+  background-color: #333;
+  color:#fff;
+}
+
+.badges > .btn:hover {
+  background-color: #263238;
+}
+
+/* About Section */
+.wrapper-about {
+  background-color: #CFD8DC;
+}
+.about {
+  padding: 5em;
+  color: #333;
+  height: 100hv;
+}
+#avatar {  
+  border-radius: 50%;
+  
+}
+.about-content {
+  padding: 4em;
+  
+}
+.about-image {
+  padding: 5em ;
+}
+
+/********** Portfolio Section *************/
+
+.wrapper-portfolio {
+  background-color: #455A64
+}
+.portfolio {
+  padding: 5em;
+  color: #fff;
+  height: 100hv;
+}
+.portfolio > h2 {
+  border-color: #fff;
+}
+.row > div {
+  margin-top: 1em;
+}
+.portfolio-image:hover { 
+  -moz-box-shadow: 0 0 10px #333; 
+  -webkit-box-shadow: 0 0 10px #333; 
+  box-shadow: 0 0 10px #333; 
+  opacity: .5;
+}
+
+/* Contact and Footer Section */
+
+#contact-content {  
+  height: 50vh;
+  margin-top: 25vh;
+}
+.footer, #footer {
+  font-family: 'roboto', sans-serif;
+  color: #455A64;
+}
+#footer:hover {    
+  color:#263238;
+  text-decoration: none;
+}
+
